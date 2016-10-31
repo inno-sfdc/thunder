@@ -1,0 +1,4 @@
+<aura:event access="public" type="COMPONENT" description="component event to fire when data get updated in dataprovider">
+    <aura:attribute name="data" access="public" type="Object" description="object to hold updated data" />
+    <aura:attribute name="currentPage" access="public" type="Integer" default="1" description="Current page number." />
+</aura:event>

@@ -1,0 +1,16 @@
+Component Style guide for lightning developers
+
+
+Lightning Component header:
+<!--
+ * Component for handling something
+ * @Attribute 
+ * @Attribute
+-->
+
+
+Client Javascript controller method:
+/**
+ * My controller for handling something
+ */
+
