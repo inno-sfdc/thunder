@@ -1,0 +1,3 @@
+<aura:event access="public" type="COMPONENT" description="Fired when data retrieval failes">
+    <aura:attribute name="error" access="public" type="Object" description="holds data provider error" />
+</aura:event>

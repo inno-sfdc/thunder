@@ -1,0 +1,4 @@
+<aura:event type="COMPONENT" access="public" description="Abort a data retrieval triggered by a data provider.">
+    <aura:attribute name="parameters" access="public" type="Object" description="The parameters the data provider can use to process the data cancel request." />
+    <aura:attribute name="index" access="public" type="Integer" description="From which data provider to cancel the data request." />
+</aura:event>
