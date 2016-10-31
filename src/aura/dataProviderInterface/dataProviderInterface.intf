@@ -1,0 +1,5 @@
+<aura:interface access="public" description="data provider interface">
+    <aura:attribute name="columns" access="public" type="List" description="list of column names"/>
+    <aura:attribute name="items" access="public" type="List" description="list of records in the data provider"/>
+    <aura:attribute name="modelItemsKey" access="public" type="String" description="The AuraEnabled field name on the model representing the first page of items." />
+</aura:interface>

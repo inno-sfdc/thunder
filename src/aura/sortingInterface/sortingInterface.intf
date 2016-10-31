@@ -1,0 +1,4 @@
+<aura:interface access="public" description="The standard interface for sorting components.">
+    <aura:attribute name="sortBy" access="public" type="String" description="The name of the field or term on which to sort." />
+    <aura:attribute name="sortDirection" access="public" type="String" description="The direction in which to sort." />
+</aura:interface>
