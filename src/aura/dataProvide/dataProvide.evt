@@ -1,3 +1,3 @@
-<aura:event access="global" type="COMPONENT" description="Component event to trigger the retrieval of data from apex controller.">
-    <aura:attribute name="parameters" access="global" type="Object" description="Parametes needed for retrieval of data" />
+<aura:event access="public" type="COMPONENT" description="Component event to trigger the retrieval of data from apex controller.">
+    <aura:attribute name="parameters" access="public" type="Object" description="Parametes needed for retrieval of data" />
 </aura:event>
